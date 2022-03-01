@@ -20,3 +20,19 @@ scream = id * 5
 greeting = "I'm gonna repeat it " + scream +   " How are you!"
 print(f"My name is {scream}")
 print(greeting)
+
+i = input("Enter an integer: ")
+
+if i.isdigit():
+    name = input("What is your name? ")
+
+    print("Hello,", name.upper())
+else:
+    print(i.capitalize())
+
+#count lenght of sentence input"
+sen = input("Enter a sentence: ")
+
+counter = len(sen.split(" "))
+
+print(f"There are {counter} words in this sentence")
